@@ -12,5 +12,6 @@ elif sys.platform == 'darwin':
     font_path = '/Library/Fonts/Supplemental/SimHei.ttf'
     my_font = FontProperties(fname=font_path) 
 
+
 plt.rcParams['axes.unicode_minus'] = False
 plt.rcParams['font.sans-serif'] = [my_font.get_name()]
